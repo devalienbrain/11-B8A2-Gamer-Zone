@@ -120,7 +120,7 @@ header {
 
 /* GOAT banner style starts */
 .goat-banner-contents {
-  background-image: url('/images/goat-bg-img.png');
+  background-image: url('images/goat-bg-img.png');
   background-repeat: no-repeat;
   background-position: left;
   padding-top: 2rem;
@@ -169,6 +169,10 @@ header {
 }
 
 /* We are gamer section style starts */
+.we-gamer-sec {
+  margin-top: 2rem;
+}
+
 .we-gamer-container {
   display: flex;
   align-items: center;
@@ -201,4 +205,68 @@ header {
 .we-gamer-contents h2,
 .we-gamer-contents p {
   margin-bottom: 1rem;
+}
+
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 576px) {
+  .default-margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* Responsive navbar style */
+  .navbar-container,
+  nav ul,
+  .ul-logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  /* Responsive GOAT banner style starts */
+  .goat-banner-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .goat-banner-contents {
+    width: 100%;
+    padding-left: 18%;
+  }
+
+  .goat-banner-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .goat-banner-img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* We are gamer section responsive style starts */
+  .we-gamer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .we-gamer-contents {
+    width: 100%;
+    text-align: center;
+  }
+
+  .we-gamer-img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .we-gamer-contents {
+    text-align: center;
+  }
 }
