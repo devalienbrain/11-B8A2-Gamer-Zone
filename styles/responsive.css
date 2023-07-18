@@ -3,8 +3,8 @@ Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
 /* Responsive style for mobile devices */
 @media screen and (max-width: 576px) {
   .default-margin {
-    margin-left: 2.2rem;
-    margin-right: 2.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   /* Responsive navbar style */
@@ -17,5 +17,27 @@ Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
 
   nav ul {
     padding-left: 0;
+  }
+
+  /* Responsive GOAT banner style starts */
+  .goat-banner-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .goat-banner-contents {
+    width: 100%;
+    padding-left: 18%;
+  }
+
+  .goat-banner-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .goat-banner-img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
