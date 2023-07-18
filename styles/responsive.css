@@ -41,3 +41,24 @@ Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
     margin-bottom: 1.5rem;
   }
 }
+
+/* We are gamer section responsive style starts */
+.we-gamer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.we-gamer-contents {
+  width: 100%;
+  text-align: center;
+}
+
+.we-gamer-img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.we-gamer-contents {
+  text-align: center;
+}

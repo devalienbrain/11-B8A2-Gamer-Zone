@@ -136,10 +136,14 @@ header {
   width: 50%;
 }
 
-.goat-banner-img img {
+.goat-banner-img-container img {
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: contain;
+}
+
+.goat-banner-img-container {
+  padding: .5rem 1px;
 }
 
 .goat-icon-container {
@@ -161,5 +165,40 @@ header {
 }
 
 .goat-banner-contents h2+h1 {
+  margin-bottom: 1rem;
+}
+
+/* We are gamer section style starts */
+.we-gamer-container {
+  display: flex;
+  align-items: center;
+}
+
+.we-gamer-contents {
+  width: 50%;
+}
+
+.we-gamer-img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.we-gamer-contents {
+  text-align: right;
+}
+
+.purpose-text {
+  color: #534C64;
+}
+
+.unleash-text {
+  color: #534C64;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.we-gamer-contents h2,
+.we-gamer-contents p {
   margin-bottom: 1rem;
 }
