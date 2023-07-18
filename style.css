@@ -538,4 +538,25 @@ footer small {
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
   }
+
+  /* Footer Responsive style starts */
+
+  .foot-items {
+    width: 100%;
+  }
+
+  .footer-head-texts,
+  .logos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .foot-instruction {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  /* FOOTER RESPONSIVE STYLE ENDS HERE */
 }
+
+/* ALL STYLE ENDS HERE */
