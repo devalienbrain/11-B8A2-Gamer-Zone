@@ -319,6 +319,31 @@ header {
   margin-bottom: 1rem;
 }
 
+/* Icons section style starts */
+.icons-sec {
+  margin-top: 4rem;
+}
+
+.icons-and-text {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.icons-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.icons-and-text img {
+  width: 3rem;
+}
+
+
+/* =================================================================================== */
 /* RESPONSIVE STYLES STARTS HERE */
 /* Responsive style for mobile devices */
 @media screen and (max-width: 576px) {
@@ -456,5 +481,13 @@ header {
   .online-game-contents h2,
   .online-game-contents p {
     padding-left: 0;
+  }
+
+  /* Icons section responsive style starts */
+
+  .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
   }
 }
