@@ -236,6 +236,45 @@ header {
   border-radius: 1rem;
 }
 
+/* Play instantly section style starts */
+.play-instant-sec {
+  margin-top: 2rem;
+}
+
+.play-instant-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.play-instant-img-container {
+  width: 70%;
+  text-align: right;
+  position: relative;
+}
+
+.play-instant-img {
+  width: 75%;
+}
+
+.play-instant-contents {
+  text-align: right;
+}
+
+.play-instant-contents h2,
+.play-instant-contents p {
+  padding-left: 45%;
+}
+
+.play-instant-absolute-img {
+  position: absolute;
+  bottom: -2rem;
+  width: 35%
+}
+
+.play-instant-absolute-img img {
+  width: 100%;
+}
 
 /* RESPONSIVE STYLES STARTS HERE */
 /* Responsive style for mobile devices */
@@ -310,5 +349,32 @@ header {
 
   .funny-video-card {
     width: 100%;
+  }
+
+  /* Play instantly section responsive style starts */
+
+  .play-instant-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .play-instant-img-container {
+    width: 100%;
+    text-align: right;
+  }
+
+  .play-instant-img {
+    width: 75%;
+  }
+
+  .play-instant-contents {
+    text-align: center;
+    width: 100%;
+  }
+
+  .play-instant-contents h2,
+  .play-instant-contents p {
+    padding-left: 0;
+    margin-bottom: 1rem;
   }
 }
