@@ -207,7 +207,37 @@ header {
   margin-bottom: 1rem;
 }
 
+/* Funny video section style starts */
+.funny-video-sec {
+  text-align: center;
+  margin-top: 2rem;
+}
 
+.funny-video-sec>h2 {
+  margin-bottom: 1rem;
+}
+
+.funny-video-sec>p {
+  margin-bottom: 2rem;
+}
+
+.funny-video-cards-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.funny-video-card img {
+  width: 100%;
+}
+
+.funny-video-card {
+  width: 23%;
+  border-radius: 1rem;
+}
+
+
+/* RESPONSIVE STYLES STARTS HERE */
 /* Responsive style for mobile devices */
 @media screen and (max-width: 576px) {
   .default-margin {
@@ -268,5 +298,17 @@ header {
 
   .we-gamer-contents {
     text-align: center;
+  }
+
+  /* Funny video section style starts */
+
+  .funny-video-cards-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .funny-video-card {
+    width: 100%;
   }
 }
