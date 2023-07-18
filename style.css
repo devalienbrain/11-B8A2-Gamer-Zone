@@ -264,6 +264,7 @@ header {
 .play-instant-contents h2,
 .play-instant-contents p {
   padding-left: 45%;
+  margin-bottom: 1rem;
 }
 
 .play-instant-absolute-img {
@@ -274,6 +275,48 @@ header {
 
 .play-instant-absolute-img img {
   width: 100%;
+}
+
+/* Online game play section style starts */
+.online-game-sec {
+  margin-top: 4rem;
+}
+
+.online-game-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.online-game-img-container {
+  width: 85%;
+  text-align: left;
+  position: relative;
+}
+
+.online-game-img {
+  width: 80%;
+}
+
+.online-game-contents {
+  text-align: left;
+}
+
+.online-game-absolute-img {
+  position: absolute;
+  bottom: -2rem;
+  right: 0;
+  width: 35%
+}
+
+.online-game-absolute-img img {
+  width: 100%;
+}
+
+.online-game-contents h2,
+.online-game-contents p {
+  padding-left: 30%;
+  margin-bottom: 1rem;
 }
 
 /* RESPONSIVE STYLES STARTS HERE */
@@ -376,5 +419,42 @@ header {
   .play-instant-contents p {
     padding-left: 0;
     margin-bottom: 1rem;
+  }
+
+  /* Online game play section style starts */
+
+  .online-game-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .online-game-img-container {
+    width: 100%;
+    text-align: left;
+    position: relative;
+  }
+
+  .online-game-img {
+    width: 80%;
+  }
+
+  .online-game-contents {
+    text-align: center;
+  }
+
+  .online-game-absolute-img {
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    width: 35%
+  }
+
+  .online-game-absolute-img img {
+    width: 100%;
+  }
+
+  .online-game-contents h2,
+  .online-game-contents p {
+    padding-left: 0;
   }
 }
