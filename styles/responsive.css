@@ -7,10 +7,15 @@ Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
     margin-right: 2.2rem;
   }
 
+  /* Responsive navbar style */
   .navbar-container,
   nav ul,
   .ul-logo-container {
     display: flex;
     flex-direction: column;
+  }
+
+  nav ul {
+    padding-left: 0;
   }
 }
