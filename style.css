@@ -279,7 +279,7 @@ header {
 
 /* Online game play section style starts */
 .online-game-sec {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .online-game-container {
@@ -321,7 +321,7 @@ header {
 
 /* Icons section style starts */
 .icons-sec {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .icons-and-text {
@@ -342,6 +342,54 @@ header {
   width: 3rem;
 }
 
+/* Footer style starts */
+.footer-sec {
+  background: #0B0223;
+  ;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.foot-items {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.footer-head-texts,
+.logos-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.logos-container {
+  gap: 1rem;
+}
+
+.logos-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.foot-instruction {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: .5rem;
+}
+
+footer small {
+  font-size: .7rem;
+}
 
 /* =================================================================================== */
 /* RESPONSIVE STYLES STARTS HERE */
