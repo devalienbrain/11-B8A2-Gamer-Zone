@@ -1,2 +1,16 @@
 /* Student ID: WEB8-1908 Module-11,
 Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
+/* Responsive style for mobile devices */
+@media screen and (max-width: 576px) {
+  .default-margin {
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+  }
+
+  .navbar-container,
+  nav ul,
+  .ul-logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
