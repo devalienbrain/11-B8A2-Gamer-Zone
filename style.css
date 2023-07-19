@@ -237,6 +237,52 @@ header {
   border-radius: 1rem;
 }
 
+/* HOVER ICON AND TEXT OVER IMAGE CSS STYLE CODE STARTS HERE */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-over-img {
+  position: absolute;
+  top: 60%;
+  left: 52.5%;
+  transform: translate(-60%, -50%);
+  display: none;
+  color: #FF42A5;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  pointer-events: none;
+}
+
+.icon-over-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(rgba(22, 21, 21, 0.833), rgba(15, 13, 13, 0.904));
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  border-radius: 8px;
+  display: none;
+}
+
+.image-container:hover .text-over-img {
+  display: block;
+}
+
+.image-container:hover .icon-over-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HOVER ICON AND TEXT OVER IMAGE CSS STYLE CODE ENDS HERE */
+
 /* Play instantly section style starts */
 .play-instant-sec {
   margin-top: 2rem;
