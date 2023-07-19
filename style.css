@@ -375,12 +375,15 @@ header {
 .icons-and-text {
   display: flex;
   align-items: center;
-  gap: .5rem;
+  /* gap: .1rem; */
+  border-radius: 3rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .icons-container {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
@@ -388,6 +391,11 @@ header {
 
 .icons-and-text img {
   width: 3rem;
+}
+
+.icons-and-text:hover {
+  border: 2px solid #FF42A5;
+  color: #FF42A5;
 }
 
 /* Footer style starts */
