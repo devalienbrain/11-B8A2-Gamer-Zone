@@ -120,8 +120,7 @@ header {
 
 /* GOAT banner style starts */
 .goat-banner-sec {
-  background-image: url('images/goat-bg-img.png'), linear-gradient(90deg, rgba(231, 213, 222, 0.03), rgba(255, 66, 165, 0.03));
-  background-blend-mode: overlay;
+  background-image: url('images/goat-bg-img.png');
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -171,7 +170,7 @@ header {
 
 /* We are gamer section style starts */
 .we-gamer-sec {
-  margin-top: 2rem;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .we-gamer-container {
