@@ -421,7 +421,7 @@ header {
 .icons-and-text {
   display: flex;
   align-items: center;
-  /* gap: .1rem; */
+  gap: .1rem;
   border-radius: 3rem;
   padding-left: .5rem;
   padding-right: .5rem;
@@ -436,7 +436,7 @@ header {
 }
 
 .icons-and-text img {
-  width: 3rem;
+  width: 1.5rem;
 }
 
 .icons-and-text:hover {
