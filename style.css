@@ -441,7 +441,8 @@ footer small {
 
 /* =================================================================================== */
 /* RESPONSIVE STYLES STARTS HERE */
-/* Responsive style for mobile devices */
+
+/* Responsive style for mobile o small devices */
 @media screen and (max-width: 576px) {
   .default-margin {
     margin-left: 1rem;
@@ -542,7 +543,7 @@ footer small {
     margin-bottom: 1rem;
   }
 
-  /* Online game play section style starts */
+  /* Online game play Responsive section style starts */
 
   .online-game-container {
     display: flex;
@@ -620,8 +621,10 @@ footer small {
     display: grid;
     grid-template-columns: repeat(2, max-content);
   }
-
-  /* FOOTER RESPONSIVE STYLE ENDS HERE */
 }
 
+/* Responsive style for tablet or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px) {}
+
+/* FOOTER RESPONSIVE STYLE ENDS HERE */
 /* ALL STYLE ENDS HERE */
