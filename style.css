@@ -319,7 +319,54 @@ header {
   margin-bottom: 1rem;
 }
 
-/* Icons section style starts */
+/* Career section style starts */
+.career-sec {
+  margin-top: 4rem;
+  background-color: #F948B2;
+}
+
+.career-container,
+.career-types-town-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.career-contents,
+.career-img-container {
+  width: 50%;
+}
+
+.career-img-container img {
+  width: 100%;
+}
+
+.career-town-list {
+  text-align: right;
+}
+
+.career-contents>h2,
+.career-contents>p,
+.career-types-town-container {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.career-types-town-container p {
+  color: white;
+}
+
+.career-contents button {
+  background: white;
+  color: #F948B2;
+}
+
+.career-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Icons of Games section style starts */
 .icons-sec {
   margin-top: 6rem;
 }
@@ -531,7 +578,24 @@ footer small {
     padding-left: 0;
   }
 
-  /* Icons section responsive style starts */
+  /* Career section Responsive style starts */
+
+  .career-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-contents,
+  .career-img-container {
+    width: 100%;
+  }
+
+  .career-contents>h2,
+  .career-contents>p {
+    text-align: center;
+  }
+
+  /* Icons of Games section responsive style starts */
 
   .icons-container {
     display: grid;
