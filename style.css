@@ -449,7 +449,7 @@ footer small {
     margin-right: 1rem;
   }
 
-  /* Responsive navbar style */
+  /* Responsive navbar style for mobile */
   .navbar-container,
   nav ul,
   .ul-logo-container {
@@ -461,7 +461,7 @@ footer small {
     padding-left: 0;
   }
 
-  /* Responsive GOAT banner style starts */
+  /* Responsive GOAT banner style starts for mobile */
   .goat-banner-container {
     display: flex;
     flex-direction: column-reverse;
@@ -483,7 +483,7 @@ footer small {
     margin-bottom: 1.5rem;
   }
 
-  /* We are gamer section responsive style starts */
+  /* We are gamer section responsive style starts for mobile */
   .we-gamer-container {
     display: flex;
     flex-direction: column;
@@ -504,7 +504,7 @@ footer small {
     text-align: center;
   }
 
-  /* Funny video section style starts */
+  /* Funny video section style starts for mobile */
 
   .funny-video-cards-container {
     display: flex;
@@ -516,7 +516,7 @@ footer small {
     width: 100%;
   }
 
-  /* Play instantly section responsive style starts */
+  /* Play instantly section responsive style starts for mobile */
 
   .play-instant-container {
     display: flex;
@@ -543,7 +543,7 @@ footer small {
     margin-bottom: 1rem;
   }
 
-  /* Online game play Responsive section style starts */
+  /* Online game play Responsive section style starts for mobile */
 
   .online-game-container {
     display: flex;
@@ -580,7 +580,7 @@ footer small {
     padding-left: 0;
   }
 
-  /* Career section Responsive style starts */
+  /* Career section Responsive style starts for mobile */
 
   .career-container {
     display: flex;
@@ -597,7 +597,7 @@ footer small {
     text-align: center;
   }
 
-  /* Icons of Games section responsive style starts */
+  /* Icons of Games section responsive style starts for mobile */
 
   .icons-container {
     display: grid;
@@ -605,7 +605,7 @@ footer small {
     gap: 0;
   }
 
-  /* Footer Responsive style starts */
+  /* Footer Responsive style starts for mobile */
 
   .foot-items {
     width: 100%;
@@ -623,8 +623,179 @@ footer small {
   }
 }
 
+/* RESPONSIVE STYLES FOR MOBILE ENDS */
+/* ================================= */
 /* Responsive style for tablet or medium devices */
-@media screen and (min-width:576px) and (max-width: 960px) {}
+@media screen and (min-width:576px) and (max-width: 960px) {
+  .default-margin {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 
-/* FOOTER RESPONSIVE STYLE ENDS HERE */
+  /* Responsive navbar style for tablet */
+  .navbar-container,
+  .ul-logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  /* Responsive GOAT banner style starts for tablet */
+  .goat-banner-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .goat-banner-contents {
+    width: 100%;
+    padding-left: 18%;
+  }
+
+  .goat-banner-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .goat-banner-img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* We are gamer section responsive style starts for tablet*/
+  .we-gamer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .we-gamer-contents {
+    width: 100%;
+    text-align: center;
+  }
+
+  .we-gamer-img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .we-gamer-contents {
+    text-align: center;
+  }
+
+  /* Funny video section style starts for tablet */
+
+  .funny-video-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .funny-video-card {
+    width: 100%;
+  }
+
+  /* Play instantly section responsive style starts for tablet */
+
+  .play-instant-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .play-instant-img-container {
+    width: 100%;
+    text-align: right;
+  }
+
+  .play-instant-img {
+    width: 75%;
+  }
+
+  .play-instant-contents {
+    text-align: center;
+    width: 100%;
+  }
+
+  .play-instant-contents h2,
+  .play-instant-contents p {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Online game play Responsive section style starts for tablet*/
+
+  .online-game-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .online-game-img-container {
+    width: 100%;
+    text-align: left;
+    position: relative;
+  }
+
+  .online-game-img {
+    width: 80%;
+  }
+
+  .online-game-contents {
+    text-align: center;
+  }
+
+  .online-game-absolute-img {
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    width: 35%
+  }
+
+  .online-game-absolute-img img {
+    width: 100%;
+  }
+
+  .online-game-contents h2,
+  .online-game-contents p {
+    padding-left: 0;
+  }
+
+  /* Career section Responsive style starts for tablet */
+
+  .career-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career-contents,
+  .career-img-container {
+    width: 100%;
+  }
+
+  .career-contents>h2,
+  .career-contents>p {
+    text-align: center;
+  }
+
+  /* Icons of Games section responsive style starts for tablet*/
+
+  .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  /* Footer Responsive style starts for tablet*/
+
+  .foot-items {
+    width: 100%;
+  }
+
+}
+
+/* FOOTER RESPONSIVE STYLE for tablet ENDS HERE */
+
 /* ALL STYLE ENDS HERE */
