@@ -170,7 +170,7 @@ header {
 
 /* We are gamer section style starts */
 .we-gamer-sec {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .we-gamer-container {
