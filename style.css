@@ -418,21 +418,23 @@ header {
   margin-top: 6rem;
 }
 
+.icons-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  /* text-align: center; */
+  align-content: center;
+  justify-content: center;
+}
+
 .icons-and-text {
+  flex-basis: 17%;
   display: flex;
   align-items: center;
   gap: .1rem;
   border-radius: 3rem;
   padding-left: .5rem;
   padding-right: .5rem;
-}
-
-.icons-container {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
 }
 
 .icons-and-text img {
