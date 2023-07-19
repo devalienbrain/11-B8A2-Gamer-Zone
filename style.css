@@ -119,12 +119,11 @@ header {
 }
 
 /* GOAT banner style starts */
-.goat-banner-contents {
-  background-image: url('images/goat-bg-img.png');
+.goat-banner-sec {
+  background-image: url('images/goat-bg-img.png'), linear-gradient(90deg, rgba(231, 213, 222, 0.03), rgba(255, 66, 165, 0.03));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: left;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .goat-banner-container {
@@ -134,6 +133,8 @@ header {
 
 .goat-banner-contents {
   width: 50%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .goat-banner-img-container img {
