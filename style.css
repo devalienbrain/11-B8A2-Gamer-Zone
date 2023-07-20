@@ -716,9 +716,22 @@ footer small {
   }
 
   /* Responsive GOAT banner style starts for tablet */
+  .goat-banner-sec {
+    background-image: none;
+  }
+
   .goat-banner-container {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .goat-banner-contents {
+    width: 100%;
+    padding-left: 18%;
+    background-image: url('images/goat-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
   }
 
   .goat-banner-contents {
