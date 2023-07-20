@@ -234,6 +234,11 @@ header {
 .funny-video-card {
   width: 23%;
   border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.funny-video-card>p {
+  margin-top: 1rem;
 }
 
 /* HOVER ICON AND TEXT OVER IMAGE CSS STYLE CODE STARTS HERE */
@@ -519,7 +524,6 @@ footer small {
   /* Responsive GOAT banner style starts for mobile */
   .goat-banner-sec {
     background-image: none;
-
   }
 
   .goat-banner-container {
@@ -534,7 +538,6 @@ footer small {
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-
   }
 
   .goat-banner-img img {
@@ -569,7 +572,7 @@ footer small {
     text-align: center;
   }
 
-  /* Funny video section style starts for mobile */
+  /* Funny video section responsive style starts for mobile */
 
   .funny-video-cards-container {
     display: flex;
