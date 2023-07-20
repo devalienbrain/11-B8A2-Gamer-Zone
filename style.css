@@ -1,5 +1,5 @@
 /* Student ID: WEB8-1908 Module-11,
-Assignment-2 'Responsive B8A2 Gamer Zone'(HASSAN) */
+Assignment-2 'Responsive B8A2 Gamer Zone'(@HASSAN) */
 
 /* Import font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
@@ -517,6 +517,11 @@ footer small {
   }
 
   /* Responsive GOAT banner style starts for mobile */
+  .goat-banner-sec {
+    background-image: none;
+
+  }
+
   .goat-banner-container {
     display: flex;
     flex-direction: column-reverse;
@@ -525,6 +530,11 @@ footer small {
   .goat-banner-contents {
     width: 100%;
     padding-left: 18%;
+    background-image: url('images/goat-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
   }
 
   .goat-banner-img img {
