@@ -552,6 +552,10 @@ footer small {
   }
 
   /* We are gamer section responsive style starts for mobile */
+  .we-gamer-sec {
+    background-image: none;
+  }
+
   .we-gamer-container {
     display: flex;
     flex-direction: column;
@@ -734,6 +738,10 @@ footer small {
   }
 
   /* We are gamer section responsive style starts for tablet*/
+  .we-gamer-sec {
+    background-image: none;
+  }
+
   .we-gamer-container {
     display: flex;
     flex-direction: column;
