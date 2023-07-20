@@ -435,14 +435,14 @@ header {
   flex-basis: 17%;
   display: flex;
   align-items: center;
-  gap: .1rem;
+  gap: .7rem;
   border-radius: 3rem;
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
 .icons-and-text img {
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .icons-and-text:hover {
