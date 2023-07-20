@@ -677,6 +677,18 @@ footer small {
     gap: 0;
   }
 
+  .icons-and-text {
+    column-gap: .5rem;
+  }
+
+  .icons-and-text>p {
+    font-size: .8rem;
+  }
+
+  .icons-and-text img {
+    width: 1.5rem;
+  }
+
   /* Footer Responsive style starts for mobile */
 
   .foot-items {
